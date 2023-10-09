@@ -9,7 +9,7 @@ async function bootstrap() {
     .setDescription(
       'Boas vindas, Turma 33! Conheçam o time e as tecnologias que compõem o módulo!',
     )
-    .addTag('periods')
+    .addTag('Períodos de Backend')
     .setVersion('v33.0.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
