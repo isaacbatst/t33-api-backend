@@ -1,16 +1,6 @@
-import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
-} from '@nestjs/common';
-import { PeriodsService } from './periods.service';
-import { CreatePeriodDto } from './dto/create-period.dto';
-import { UpdatePeriodDto } from './dto/update-period.dto';
+import { Controller, Get, Param } from '@nestjs/common';
 import { ApiTags } from '@nestjs/swagger';
+import { PeriodsService } from './periods.service';
 
 @ApiTags('periods')
 @Controller('periods')
